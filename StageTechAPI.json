@@ -53,9 +53,11 @@
             ],
             "stagesEnregistrés": []
           },
-          "cv": "alicecv.pdf",
-          "relevé_notes": "alicenotes.png",
-          "état": "Accepté"
+          "candidature": {
+            "cv": "alicecv.pdf",
+            "relevé_notes": "alicenotes.png",
+            "état": "Accepté"
+          }
         }
       ]
     },
@@ -161,41 +163,43 @@
         }
       ],
       "stagesEnregistrés": []
-	  }
-	],
-      "candidatures": [
-        {
-          "id_candidature": 1,
-          "id_stage": 1,
-          "etudiant": {
-            "idÉtudiant": 1,
-            "nom": "Dupont",
-            "prénom": "Alice",
-            "description": "Étudiant en informatique profil web",
-            "courriel": "alice.dupont@gmail.com",
-            "adresse": "475 rue bourdaloue, laval, qc",
-            "collège": "Collège Rosemont",
-            "spécialité": "Application web - c# & spring boot",
-            "disponibilité": "Lundi et mardi de 14h à 17h",
-            "bulletinScolaire": "alicenotes.png",
-            "Cv": "alicecv.pdf",
-            "mesApplications": [
-              {
-                "idStage": 1,
-                "titreStage": "Analyste développeur Python",
-                "nomEntreprise": "CWP Energy",
-                "logoEntreprise": 1,
-                "localisation": "Montréal, QC",
-                "salaire": 25.0,
-                "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-                "taches": "De développer de nouvelles fonctionnalités dans les applications",
-                "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-                "modeStage": "hybrid"
-				}
-			],
-			"cv": "alicecv.pdf",
-			"relevé_notes": "alicenotes.png",
-			"état": "Accepté"
-		}
-	]
+    }
+  ],
+  "candidatures": [
+    {
+      "id_candidature": 1,
+      "id_stage": 1,
+      "etudiant": {
+        "idÉtudiant": 1,
+        "nom": "Dupont",
+        "prénom": "Alice",
+        "description": "Étudiant en informatique profil web",
+        "courriel": "alice.dupont@gmail.com",
+        "adresse": "475 rue bourdaloue, laval, qc",
+        "collège": "Collège Rosemont",
+        "spécialité": "Application web - c# & spring boot",
+        "disponibilité": "Lundi et mardi de 14h à 17h",
+        "bulletinScolaire": "alicenotes.png",
+        "Cv": "alicecv.pdf",
+        "mesApplications": [
+          {
+            "idStage": 1,
+            "titreStage": "Analyste développeur Python",
+            "nomEntreprise": "CWP Energy",
+            "logoEntreprise": 1,
+            "localisation": "Montréal, QC",
+            "salaire": 25.0,
+            "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
+            "taches": "De développer de nouvelles fonctionnalités dans les applications",
+            "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
+            "modeStage": "hybrid"
+          }
+        ],
+        "stagesEnregistrés": []
+      },
+      "cv": "alicecv.pdf",
+      "relevé_notes": "alicenotes.png",
+      "état": "Accepté"
+    }
+  ]
 }
