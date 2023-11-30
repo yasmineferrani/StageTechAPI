@@ -6,41 +6,34 @@
         "titreStage": "Analyste développeur Python",
         "nomEntreprise": {
           "idEntreprise": 1,
-          "nomEntreprise": "CWP Energy",
-          // ... (autres propriétés de l'entreprise)
+          "nomEntreprise": "CWP Energy"
         },
-        // ... (autres propriétés du stage)
       },
       {
         "idStage": 2,
-        "titreStage": "Développeur(euse) logiciel Java",
-        // ... (autres propriétés du stage)
+        "titreStage": "Développeur(euse) logiciel Java"
       }
     ],
     "entreprises": [
       {
         "idEntreprise": 1,
-        "nomEntreprise": "CWP Energy",
-        // ... (autres propriétés de l'entreprise)
+        "nomEntreprise": "CWP Energy"
       },
       {
         "idEntreprise": 2,
-        "nomEntreprise": "Workland",
-        // ... (autres propriétés de l'entreprise)
+        "nomEntreprise": "Workland"
       }
     ],
     "etudiants": [
       {
         "idÉtudiant": 1,
-        "nom": "Dupont",
-        // ... (autres propriétés de l'étudiant)
+        "nom": "Dupont"
       }
     ],
     "candidatures": [
       {
         "id_candidature": 1,
-        "id_stage": 1,
-        // ... (autres propriétés de la candidature)
+        "id_stage": 1
       }
     ]
   }
