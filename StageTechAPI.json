@@ -1,201 +1,48 @@
 {
-  "stages": [
-    {
-      "idStage": 1,
-      "titreStage": "Analyste développeur Python",
-      "nomEntreprise": {
+  "sections": {
+    "stages": [
+      {
+        "idStage": 1,
+        "titreStage": "Analyste développeur Python",
+        "nomEntreprise": {
+          "idEntreprise": 1,
+          "nomEntreprise": "CWP Energy",
+          // ... (autres propriétés de l'entreprise)
+        },
+        // ... (autres propriétés du stage)
+      },
+      {
+        "idStage": 2,
+        "titreStage": "Développeur(euse) logiciel Java",
+        // ... (autres propriétés du stage)
+      }
+    ],
+    "entreprises": [
+      {
         "idEntreprise": 1,
         "nomEntreprise": "CWP Energy",
-        "descriptionEntreprise": "Notre spécialité, c'est d'optimiser! Et nous sommes fiers de notre expertise. ...",
-        "logoEntreprise": 1,
-        "nombreEmployers": 300,
-        "emailHR": "HR@CWPEnergy.com",
-        "siteWeb": "https://www.CWPEnergy.com.",
-        "adresse": "Montréal, QC",
-        "stagesOfferts": null
+        // ... (autres propriétés de l'entreprise)
       },
-      "logoEntreprise": 1,
-      "localisation": "Montréal, QC",
-      "salaire": 25.0,
-      "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-      "taches": "De développer de nouvelles fonctionnalités dans les applications",
-      "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-      "modeStage": "hybrid",
-      "candidaturesÉtudiantes": [
-        {
-          "id_candidature": 1,
-          "id_stage": 1,
-          "etudiant": {
-            "idÉtudiant": 1,
-            "nom": "Dupont",
-            "prénom": "Alice",
-            "description": "Étudiant en informatique profil web",
-            "courriel": "alice.dupont@gmail.com",
-            "adresse": "475 rue bourdaloue, laval, qc",
-            "collège": "Collège Rosemont",
-            "spécialité": "Application web - c# & spring boot",
-            "disponibilité": "Lundi et mardi de 14h à 17h",
-            "bulletinScolaire": "alicenotes.png",
-            "Cv": "alicecv.pdf",
-            "mesApplications": [
-              {
-                "idStage": 1,
-                "titreStage": "Analyste développeur Python",
-                "nomEntreprise": "CWP Energy",
-                "logoEntreprise": 1,
-                "localisation": "Montréal, QC",
-                "salaire": 25.0,
-                "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-                "taches": "De développer de nouvelles fonctionnalités dans les applications",
-                "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-                "modeStage": "hybrid"
-              }
-            ],
-            "stagesEnregistrés": []
-          },
-          "cv": "alicecv.pdf",
-          "relevé_notes": "alicenotes.png",
-          "état": "Accepté"
-        }
-      ]
-    },
-    {
-      "idStage": 2,
-      "titreStage": "Développeur(euse) logiciel Java",
-      "nomEntreprise": {
+      {
         "idEntreprise": 2,
         "nomEntreprise": "Workland",
-        "descriptionEntreprise": "Notre spécialité, c'est d'optimiser! Et nous sommes fiers de notre expertise. ...",
-        "logoEntreprise": 2,
-        "nombreEmployers": 300,
-        "emailHR": "HR@Workland.com",
-        "siteWeb": "https://www.Workland.com",
-        "adresse": "Montréal, QC",
-        "stagesOfferts": null
-      },
-      "logoEntreprise": 2,
-      "localisation": "Montréal, QC",
-      "salaire": 25.0,
-      "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-      "taches": "De développer de nouvelles fonctionnalités dans les applications",
-      "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-      "modeStage": "télétravail",
-      "candidaturesÉtudiantes": []
-    }
-  ],
-  "entreprises": [
-    {
-      "idEntreprise": 1,
-      "nomEntreprise": "CWP Energy",
-      "descriptionEntreprise": "Notre spécialité, c'est d'optimiser! Et nous sommes fiers de notre expertise. ...",
-      "logoEntreprise": 1,
-      "nombreEmployers": 300,
-      "emailHR": "HR@CWPEnergy.com",
-      "siteWeb": "https://www.CWPEnergy.com.",
-      "adresse": "Montréal, QC",
-      "stagesOfferts": [
-        {
-          "idStage": 1,
-          "titreStage": "Analyste développeur Python",
-          "nomEntreprise": "CWP Energy",
-          "logoEntreprise": 1,
-          "localisation": "Montréal, QC",
-          "salaire": 25.0,
-          "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-          "taches": "De développer de nouvelles fonctionnalités dans les applications",
-          "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-          "modeStage": "hybrid"
-        }
-      ]
-    },
-    {
-      "idEntreprise": 2,
-      "nomEntreprise": "Workland",
-      "descriptionEntreprise": "Notre spécialité, c'est d'optimiser! Et nous sommes fiers de notre expertise. ...",
-      "logoEntreprise": 2,
-      "nombreEmployers": 300,
-      "emailHR": "HR@Workland.com",
-      "siteWeb": "https://www.Workland.com",
-      "adresse": "Montréal, QC",
-      "stagesOfferts": [
-        {
-          "idStage": 2,
-          "titreStage": "Développeur(euse) logiciel Java",
-          "nomEntreprise": "Workland",
-          "logoEntreprise": 2,
-          "localisation": "Montréal, QC",
-          "salaire": 25.0,
-          "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-          "taches": "De développer de nouvelles fonctionnalités dans les applications",
-          "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-          "modeStage": "télétravail"
-        }
-      ]
-    }
-  ],
-  "etudiants": [
-    {
-      "idÉtudiant": 1,
-      "nom": "Dupont",
-      "prénom": "Alice",
-      "description": "Étudiant en informatique profil web",
-      "courriel": "alice.dupont@gmail.com",
-      "adresse": "475 rue bourdaloue, laval, qc",
-      "collège": "Collège Rosemont",
-      "spécialité": "Application web - c# & spring boot",
-      "disponibilité": "Lundi et mardi de 14h à 17h",
-      "bulletinScolaire": "alicenotes.png",
-      "Cv": "alicecv.pdf",
-      "mesApplications": [
-        {
-          "idStage": 1,
-          "titreStage": "Analyste développeur Python",
-          "nomEntreprise": "CWP Energy",
-          "logoEntreprise": 1,
-          "localisation": "Montréal, QC",
-          "salaire": 25.0,
-          "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-          "taches": "De développer de nouvelles fonctionnalités dans les applications",
-          "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-          "modeStage": "hybrid"
-        }
-      ],
-      "stagesEnregistrés": []
-	  }
-	],
-      "candidatures": [
-        {
-          "id_candidature": 1,
-          "id_stage": 1,
-          "etudiant": {
-            "idÉtudiant": 1,
-            "nom": "Dupont",
-            "prénom": "Alice",
-            "description": "Étudiant en informatique profil web",
-            "courriel": "alice.dupont@gmail.com",
-            "adresse": "475 rue bourdaloue, laval, qc",
-            "collège": "Collège Rosemont",
-            "spécialité": "Application web - c# & spring boot",
-            "disponibilité": "Lundi et mardi de 14h à 17h",
-            "bulletinScolaire": "alicenotes.png",
-            "Cv": "alicecv.pdf",
-            "mesApplications": [
-              {
-                "idStage": 1,
-                "titreStage": "Analyste développeur Python",
-                "nomEntreprise": "CWP Energy",
-                "logoEntreprise": 1,
-                "localisation": "Montréal, QC",
-                "salaire": 25.0,
-                "descriptionPoste": "Nous recherchons actuellement un développeur ou une développeuse de logiciels intermédiaire/sénior pour compléter notre équipe de Montréal.",
-                "taches": "De développer de nouvelles fonctionnalités dans les applications",
-                "competences": "Tu aimes et connais bien la programmation web ou la programmation orientée objet",
-                "modeStage": "hybrid"
-				}
-			],
-			"cv": "alicecv.pdf",
-			"relevé_notes": "alicenotes.png",
-			"état": "Accepté"
-		}
-	]
+        // ... (autres propriétés de l'entreprise)
+      }
+    ],
+    "etudiants": [
+      {
+        "idÉtudiant": 1,
+        "nom": "Dupont",
+        // ... (autres propriétés de l'étudiant)
+      }
+    ],
+    "candidatures": [
+      {
+        "id_candidature": 1,
+        "id_stage": 1,
+        // ... (autres propriétés de la candidature)
+      }
+    ]
+  }
 }
+
